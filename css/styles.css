@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 70px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* 16px = 100% = 1em = 1rem */
+  /* 90px = 90*100/16 = 562.5% = 5.625em = 5.625rem*/
+  font-size: 5.625rem;
+  color: #ab9173;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #ab9173;
+  /* margin: 0; */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #cfb495;
+}
+
+a {
+  color: #cfb495;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a9937b;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-top-width: 5px;
+  border-style: dotted;
+  border-color: #EAF6F6;
+  width: 3%;
+  margin: 100px auto;
+}
+
+/*------------------------------ Class Selectors------------------------------*/
+.top-container {
+  background-color: #b8bec0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+}
+
+.subtitle {
+  font-weight: normal;
+  color: #b79d7e;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.cactus {
+  position: relative;
+  top: 5px;
+  margin-top: 30px;
+}
+
+.middle-container {
+  padding: 100px 0;
+}
+
+.hello {
+  margin: 2rem auto;
+}
+
+.intro {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.data-science-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+/* .data-science-skill-des {
+  clear: left;
+} */
+
+.yoga-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .yoga-skill-des {
+  clear: right;
+} */
+
+.contact-me-msg {
+  width: 35%;
+  margin: 10px auto 30px;
+}
+
+.btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #CFB495;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 16px;
+  background-color: #758184;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #a9937b;
+  background: #616a6d;
+  border: solid #616a6d 0px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding: 30px 0 10px;
+  background-color: #758184;
+}
+
+.footer-link {
+  padding: 15px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+}
+
+/*------------------------------ ID Selectors------------------------------*/
+#profile-pic {
+  width: 200px;
+  height: 200px;
+}
